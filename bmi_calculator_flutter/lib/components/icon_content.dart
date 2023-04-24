@@ -1,10 +1,6 @@
 // ignore_for_file: prefer_const_constructors_in_immutables, prefer_const_constructors
 import 'package:flutter/material.dart';
-
-const labelTextStyle = TextStyle(
-  fontSize: 18.0,
-  color: Color(0xFF8D8E98),
-);
+import 'package:bmi_calculator_flutter/constants.dart';
 
 class IconContents extends StatelessWidget {
   final String label;
@@ -22,7 +18,7 @@ class IconContents extends StatelessWidget {
           size: 80.0,
         ),
         SizedBox(height: 10),
-        Text(label, style: labelTextStyle),
+        Text(label, style: kLabelTextStyle),
       ],
     );
   }
