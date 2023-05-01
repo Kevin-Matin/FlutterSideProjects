@@ -8,7 +8,6 @@ import '../constants.dart';
 import 'package:bmi_calculator_flutter/components/bottom_button.dart';
 import 'package:bmi_calculator_flutter/components/round_icon_button.dart';
 import 'package:bmi_calculator_flutter/calculator_brain.dart';
-import 'results_page.dart';
 
 enum Gender {
   male,

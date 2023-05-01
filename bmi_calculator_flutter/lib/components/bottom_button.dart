@@ -15,8 +15,8 @@ class BottomButton extends StatelessWidget {
       onTap: onTap,
       child: Container(
         color: kBottomContainerColor,
-        margin: EdgeInsets.only(top: 10),
-        padding: EdgeInsets.only(bottom: 20.0),
+        margin: const EdgeInsets.only(top: 10),
+        padding: const EdgeInsets.only(bottom: 20.0),
         width: double.infinity,
         height: kBottomContainerHeight,
         child: Center(

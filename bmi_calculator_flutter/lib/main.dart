@@ -12,6 +12,7 @@ class BMICalculator extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
         primaryColor: Color(0xFF0A0E21),
+        textTheme: TextTheme(),
         colorScheme: ColorScheme(
           primary: Color(0xFF0A0E21),
           secondary: Colors.pink,
@@ -24,6 +25,7 @@ class BMICalculator extends StatelessWidget {
           onError: Colors.white,
           brightness: Brightness.light,
           onBackground: Colors.white,
+          
         ),
       ),
       home: InputPage(),
