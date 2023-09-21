@@ -1,0 +1,25 @@
+name: api_test_flutter
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  dio: ^5.1.2
+  json_annotation: ^4.1.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  json_serializable: ^6.6.2
+  build_runner: ^2.1.11
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  
